@@ -1,2 +1,3 @@
 # uselessbot
 Just Useless Bot
+:)
