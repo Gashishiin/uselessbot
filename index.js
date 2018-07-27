@@ -1,5 +1,5 @@
 var TelegramBot = require('node-telegram-bot-api');
-var token = '';
+var token = process.env.TOKEN;
 var bot = new TelegramBot(token, {polling: true});
 bot.on('text',function(msg){
     var messageChatID = msg.chat.id;
